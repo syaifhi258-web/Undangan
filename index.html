@@ -1,0 +1,212 @@
+<!DOCTYPE html><html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Undangan Pernikahan Rahma & Wildan</title>  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background: radial-gradient(circle at top, #fff4cc, #c9a24d);
+      color: #4a3b1f;
+      text-align: center;
+    }
+    .cover {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(180deg, #d4af37, #8b6b1f);
+      color: white;
+      padding: 30px;
+    }
+    .cover h1 {
+      font-size: 36px;
+      letter-spacing: 2px;
+      margin-bottom: 10px;
+    }
+    .cover p {
+      font-size: 18px;
+      margin-bottom: 25px;
+    }
+    .open-btn {
+      padding: 15px 30px;
+      border-radius: 40px;
+      border: none;
+      background: white;
+      color: #8b6b1f;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    }
+    .container {
+      display: none;
+      padding: 40px 20px;
+      max-width: 650px;
+      margin: 40px auto;
+      background: rgba(255,255,255,0.96);
+      border-radius: 24px;
+      box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    }
+    .arabic { font-size: 22px; margin-bottom: 10px; }
+    .ayat { font-size: 15px; font-style: italic; margin: 15px 0; }
+    .names {
+      font-size: 32px;
+      font-weight: bold;
+      margin: 25px 0;
+      color: #9e7c19;
+    }
+    .date { font-size: 18px; line-height: 1.8; }
+    .countdown { font-size: 18px; margin: 20px 0; font-weight: bold; }
+    .btn {
+      display: inline-block;
+      margin: 10px 8px;
+      padding: 14px 26px;
+      background: linear-gradient(135deg, #d4af37, #9e7c19);
+      color: white;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: bold;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+    }
+    .footer { margin-top: 30px; font-size: 14px; }
+    .anime-wrap{position:relative;margin-bottom:18px;filter:drop-shadow(0 10px 25px rgba(0,0,0,.35));}
+  .spark{position:absolute;inset:0;background:radial-gradient(circle at 50% 40%, rgba(255,255,255,.8), rgba(255,255,255,0) 55%);
+    animation: pulse 3.5s ease-in-out infinite;mix-blend-mode:screen;}
+  @keyframes pulse{0%,100%{opacity:.25;transform:scale(.98)}50%{opacity:.6;transform:scale(1.02)}}
+  .float{animation: float 6s ease-in-out infinite}
+  @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+  /* ===== Anime Full Effects ===== */
+  #stars{position:fixed;inset:0;z-index:0}
+  .cover, .container{position:relative;z-index:1}
+  .slash{position:absolute;inset:0;pointer-events:none}
+  .slash:before,.slash:after{content:"";position:absolute;left:-20%;right:-20%;top:50%;height:4px;background:linear-gradient(90deg, transparent, #b9e9ff, #fff, #b9e9ff, transparent);filter:blur(0.5px);animation:slash 2.8s ease-in-out infinite}
+  .slash:after{top:55%;animation-delay:1.4s}
+  @keyframes slash{0%{opacity:0;transform:translateY(0) scaleX(0)}40%{opacity:1;transform:translateY(-6px) scaleX(1)}100%{opacity:0;transform:translateY(-12px) scaleX(1.1)}}
+</style></head><body><audio id="bgm" loop>
+  <source src="https://cdn.pixabay.com/audio/2022/10/30/audio_4d7e7a1a3a.mp3" type="audio/mpeg">
+</audio>
+<audio id="whoosh">
+  <source src="https://cdn.pixabay.com/audio/2021/08/04/audio_6f3f2a6c2b.mp3" type="audio/mpeg">
+</audio>
+  <source src="https://cdn.pixabay.com/audio/2022/10/30/audio_4d7e7a1a3a.mp3" type="audio/mpeg">
+</audio><!-- COVER --><div class="cover" id="cover">
+  <canvas id="stars"></canvas>
+  <div class="slash"></div>
+  <div class="anime-wrap">
+    <svg width="220" height="140" viewBox="0 0 220 140" aria-hidden="true">
+      <defs>
+        <linearGradient id="goldGrad" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#fff1b8"/>
+          <stop offset="100%" stop-color="#d4af37"/>
+        </linearGradient>
+      </defs>
+      <!-- Siluet terinspirasi Kirito & Asuna (abstrak, non-replika) -->
+      <path d="M40 120 C35 95, 45 70, 70 60 C78 35, 105 35, 112 60 C135 70, 145 95, 140 120 Z" fill="url(#goldGrad)" opacity="0.9"/>
+      <path d="M120 120 C115 92, 125 68, 150 58 C160 36, 185 36, 192 58 C215 68, 225 92, 220 120 Z" transform="translate(-20,0)" fill="url(#goldGrad)" opacity="0.9"/>
+      <!-- Pedang cahaya -->
+      <rect x="108" y="18" width="4" height="78" rx="2" fill="#fff"/>
+      <rect x="106" y="18" width="8" height="78" rx="4" fill="#b9e9ff" opacity="0.6"/>
+    </svg>
+    <div class="spark"></div>
+  </div>
+  <div class="arabic">بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ</div>
+  <h1>UNDANGAN PERNIKAHAN</h1>
+  <p>Rahma Wati & Ahmad Wildan</p>
+  <button class="open-btn" onclick="openInvitation()">💍 Buka Undangan</button>
+</div><!-- ISI UNDANGAN --><div class="container" id="content">
+  <div class="anime-divider">
+    <svg width="100%" height="24" viewBox="0 0 600 24" preserveAspectRatio="none">
+      <path d="M0 12 H600" stroke="#d4af37" stroke-width="2" stroke-dasharray="6 6"/>
+    </svg>
+    <small style="opacity:.8">✨ Terinspirasi dunia fantasi romantis ala Kirito & Asuna ✨</small>
+  </div>  <div class="ayat">
+    “Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri,
+    agar kamu cenderung dan merasa tenteram kepadanya.”<br>
+    <b>(QS. Ar-Rum: 21)</b>
+  </div>  <p id="guest"></p>  <p>Assalamu’alaikum Warahmatullahi Wabarakatuh</p>  <p>Dengan memohon rahmat dan ridho Allah SWT, kami mengundang Bapak/Ibu/Saudara/i untuk menghadiri akad nikah kami:</p>  <div class="names float">
+    RAHMA WATI<br>&amp;<br>AHMAD WILDAN
+  </div>  <div class="date">
+    📅 Kamis, 23 Januari 2026<br>
+    ⏰ Pukul 09.00 WIB<br>
+    📍 Masjid Al-Abror
+  </div>  <div class="countdown" id="countdown"></div><a class="btn" href="https://www.google.com/maps/search/Masjid+Al-Abror" target="_blank">📍 Lihat Lokasi Masjid</a> <a class="btn" href="https://wa.me/628XXXXXXXXXX?text=Assalamu’alaikum%20saya%20ingin%20konfirmasi%20kehadiran%20pada%20pernikahan%20Rahma%20Wati%20%26%20Ahmad%20Wildan" target="_blank">💬 RSVP WhatsApp</a>
+
+  <div class="ornament">❁ ❁ ❁</div>  <div class="rekening">
+    <h3>🎁 Amplop Digital</h3>
+    <p>Bagi yang berkenan memberikan tanda kasih, dapat melalui:</p>
+    <p><b>Bank BCA</b><br>1234567890<br>a.n Rahma Wati</p>
+    <p><b>DANA</b><br>0812xxxxxxx</p>
+  </div>  <div class="footer">
+    <p>Wassalamu’alaikum Warahmatullahi Wabarakatuh</p>
+    <strong>Keluarga Besar Rahma Wati & Ahmad Wildan</strong>
+  </div>
+</div><script>
+  /* Starfield */
+  const c=document.getElementById('stars'),ctx=c.getContext('2d');
+  function resize(){c.width=innerWidth;c.height=innerHeight}resize();addEventListener('resize',resize);
+  const stars=Array.from({length:120},()=>({x:Math.random()*c.width,y:Math.random()*c.height,z:Math.random()*2+0.5}))
+  function draw(){ctx.clearRect(0,0,c.width,c.height);stars.forEach(s=>{s.y+=s.z*0.2;if(s.y>c.height)s.y=0;ctx.fillStyle='rgba(255,215,100,.8)';ctx.fillRect(s.x,s.y,2,2)});requestAnimationFrame(draw)}draw();
+
+  // Meteor Shower
+  let timeScale = 1; // slow-motion control
+  const meteors = Array.from({length:8},()=>({x:Math.random()*c.width,y:Math.random()*c.height/2,vx:6+Math.random()*4,vy:6+Math.random()*4,l:60+Math.random()*40}))
+  function meteorsDraw(){
+    // apply slow motion
+    const ts = timeScale;meteors.forEach(m=>{ctx.strokeStyle='rgba(185,233,255,.8)';ctx.lineWidth=2;ctx.beginPath();ctx.moveTo(m.x,m.y);ctx.lineTo(m.x-m.l,m.y-m.l);ctx.stroke();m.x+=m.vx*ts;
+        m.y+=m.vy*ts;if(m.x>c.width||m.y>c.height){m.x=Math.random()*c.width;m.y=Math.random()*c.height/3}});requestAnimationFrame(meteorsDraw)}meteorsDraw();
+
+  function openInvitation() {
+    // Meteor Burst with Slow Motion
+    timeScale = 0.25; // slow motion start
+    const start = performance.now();
+    for(let i=0;i<24;i++){
+      meteors.push({
+        x: Math.random()*c.width,
+        y: Math.random()*c.height/3,
+        vx: 8+Math.random()*6,
+        vy: 8+Math.random()*6,
+        l: 90+Math.random()*70
+      });
+    }
+    // ease back to normal speed
+    (function ease(){
+      const t = (performance.now()-start)/1800;
+      timeScale = Math.min(1, 0.25 + t);
+      if(timeScale < 1) requestAnimationFrame(ease);
+    })();
+
+    document.getElementById('cover').style.display = 'none';
+    document.getElementById('content').style.display = 'block';
+    document.getElementById('whoosh').volume = 0.35;
+    document.getElementById('whoosh').play();
+    document.getElementById('bgm').play();
+  });
+    }
+    document.getElementById('cover').style.display = 'none';
+    document.getElementById('content').style.display = 'block';
+    document.getElementById('bgm').play();
+  }
+
+  // Nama Tamu
+  const params = new URLSearchParams(window.location.search);
+  const nama = params.get('to');
+  if (nama) {
+    document.getElementById('guest').innerText = 'Kepada Yth: ' + nama;
+  }
+
+  // Countdown
+  const targetDate = new Date('2026-01-23T09:00:00').getTime();
+  setInterval(() => {
+    const now = new Date().getTime();
+    const diff = targetDate - now;
+    if (diff > 0) {
+      const d = Math.floor(diff / (1000*60*60*24));
+      const h = Math.floor((diff / (1000*60*60)) % 24);
+      const m = Math.floor((diff / (1000*60)) % 60);
+      document.getElementById('countdown').innerText = `⏳ ${d} Hari ${h} Jam ${m} Menit menuju Akad`;
+    }
+  }, 1000);
+</script></body>
+</html>
